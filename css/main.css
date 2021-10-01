@@ -325,6 +325,11 @@ align-items: center;
 flex-flow: row wrap;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features article {
   width: 63%;
   margin: 30px 0;
@@ -601,7 +606,7 @@ aside .content-wrapper .form {
     }
 
   .features .features-item-description {
-      width: 50%;
+      width: 62%;
     }
 
     /* Reviews */
@@ -624,9 +629,7 @@ aside .content-wrapper .form {
     margin: 0;
   }
 
-  .reviews article div {
-      width: 49%;
-    }
+
 
     /* Footer */
     footer .content-wrapper {
