@@ -103,10 +103,11 @@ textarea {
    ul,
    ol {
      list-style-type: none;
+     margin: 0;
    }
 
    a {
-   	color: e2e3ed;
+   	color: #e2e3ed;
     text-decoration: none;
    }
 
@@ -140,7 +141,7 @@ textarea {
    address {
      font-style: normal;
      font-family: 'Rampart One', cursive;
-     color: #ffffff;
+
 
    }
 
@@ -224,9 +225,17 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer p {
@@ -641,6 +650,7 @@ aside .content-wrapper .form {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-direction: row;
     }
 
     footer .contact {
@@ -654,6 +664,11 @@ aside .content-wrapper .form {
 
    footer p {
       line-height: 1.285;
+    }
+
+   footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
     }
 
     footer .copyright {
@@ -746,7 +761,7 @@ aside .content-wrapper .form {
        /* Hero */
       .hero-area h1 {
           font-size: 3.75em;
-          width: 60%;
+          width: 80%;
       }
 
       /* Aside */
