@@ -104,6 +104,7 @@ textarea {
    ol {
      list-style-type: none;
      margin: 0;
+     padding: 0;
    }
 
    a {
@@ -115,6 +116,7 @@ textarea {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.875em;
+    margin: 0;
    }
 
    h3,
@@ -310,7 +312,7 @@ input[type=button] {
 /* Features */
 
 .features {
-  background: url(../img/unplugged-retreat-features.jpg);
+  background: url('../img/unplugged-retreat-features.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -347,9 +349,6 @@ flex-flow: row wrap;
 /* Reviews */
 
 .reviews {
-  background: url(../img/unplugged-retreat-reviews.jpg);
-  background-size: cover;
-  background-position: center;
   background-color: #2a423a;
   display: flex;
   justify-content: center;
