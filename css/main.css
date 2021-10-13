@@ -369,41 +369,41 @@ flex-flow: row wrap;
    About Page
    ========================================================================== */
 
-.map figure {
-       width: 100%;
-       height: 0;
-       padding-bottom: 125%;
-       overflow: hidden;
-       position: relative;
-}
+   .mission {
+     background-color: #527158;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
 
-.map iframe {
-       width: 100%;
-       height: 100%;
-       position: absolute;
-       top: 0;
-       left: 0;
-}
+   .map figure {
+     width: 100%;
+     height: 0;
+     padding-bottom: 125%;
+     overflow: hidden;
+     position: relative;
+   }
 
-.mission {
-  background-color: #527158;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
+   .map iframe {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+   }
 
-.contact-section {
-  background-color: #2a423a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
+   .contact-section {
+     background-color: #2a423a;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
 
-.contact-content p {
-  margin: 0;
-}
+   .contact-content p {
+     margin: 0;
+   }
 
 /* ==========================================================================
    FAQ Page
